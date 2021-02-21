@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JuegoFinal</string>
+    <string name="challenge">Desafio</string>
+    <string name="arcade">Arcade</string>
+    <string name="win">Victoria</string>
+    <string name="defeat">Derrota</string>
+    <string name="pause">Pausa</string>
+    <string name="score">Puntuación</string>
+    <string name="play">Jugar</string>
+    <string name="time">Tiempo</string>
+</resources>
