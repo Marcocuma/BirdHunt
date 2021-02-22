@@ -28,7 +28,7 @@ public class Pajaro {
         this.height = this.bmp.getHeight() / BMP_ROWS;
         this.y=height*altura;
         this.altura = altura;
-        this.xSpeed = (int) Math.round(Math.random()*50);
+        this.xSpeed = (int) Math.ceil(Math.random()*50);
     }
     private void update() {
         if (x+width+xSpeed >= widthView) {

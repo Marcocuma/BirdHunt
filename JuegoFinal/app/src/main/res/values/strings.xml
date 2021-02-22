@@ -1,22 +1,18 @@
 <resources>
     <string name="app_name">JuegoFinal</string>
-    <string name="title_activity_main2">MainActivity</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main2">Hunt Game</string>
     <string name="challenge">Challenge</string>
     <string name="arcade">Arcade</string>
     <string name="win">Win</string>
     <string name="defeat">Defeat</string>
     <string name="pause">Pause</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="score">Score</string>
     <string name="play">Play</string>
     <string name="time">Time</string>
+    <string name="challengetext">
+        Game mode that will test your skills. Get a number of points in a specific time to win, if you don\'t get it, you have to start over!
+    </string>
+    <string name="arcadetext">
+        You have 2 minutes to get the highest possible score. You do not have a time limit, but remember, birds will not make it easy for you!
+    </string>
 </resources>
