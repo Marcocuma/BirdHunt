@@ -28,7 +28,7 @@ public class SecondFragment extends Fragment {
             public void onClick(View view) {
                 Intent intent = new Intent(getContext(), MainGame.class);
                 intent.putExtra("tiempoMaximo",60);
-                intent.putExtra("puntuacionMax",25);
+                intent.putExtra("puntuacionMax",20);
                 startActivity(intent);
             }
         });
