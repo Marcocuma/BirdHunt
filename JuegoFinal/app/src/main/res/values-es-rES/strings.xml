@@ -11,5 +11,5 @@
     <string name="time">Tiempo</string>
     <string name="title_activity_main2">Hunt Game</string>
     <string name="challengetext">Modo de juego que pondra a prueba tus habilidades. Consigue un numero de puntos en un tiempo concreto para ganar, si no lo consigues, ¡te toca empezar de nuevo!</string>
-    <string name="arcadetext">Tienes 2 minutos para conseguir la maxima puntuacion posible. No tienes limite de tiempo, pero recuerda, !los pajaros no te lo pondran facil!</string>
+    <string name="arcadetext">Tienes 2 minutos para conseguir la maxima puntuacion posible. No tienes limite de puntuacion, pero recuerda, !los pajaros no te lo pondran facil!</string>
 </resources>

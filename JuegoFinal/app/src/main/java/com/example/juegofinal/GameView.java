@@ -188,7 +188,7 @@ public class GameView extends SurfaceView {
                     ganas();
                 }
             } else {
-                canvas.drawText("Points: " + puntuacion,
+                canvas.drawText(main.getString(R.string.score)+": " + puntuacion,
                         getWidth() / 2 + letras.getTextSize(),
                         getHeight(),
                         letras);
@@ -211,9 +211,13 @@ public class GameView extends SurfaceView {
                     leftCartel+fondoCartel.getWidth()/4,
                     topCartel+fondoCartel.getHeight()/2-letras.getTextSize(),
                     letras);
-            canvas.drawText("Puntuacion: "+puntuacion,
+            canvas.drawText(main.getString(R.string.score)+": "+puntuacion,
                     leftCartel+fondoCartel.getWidth()/4,
                     topCartel+fondoCartel.getHeight()/2+letras.getTextSize(),
+                    letras);
+            canvas.drawText(main.getString(R.string.time)+": " + segundos + "/"+tiempoMaximo,
+                    leftCartel+fondoCartel.getWidth()/4,
+                    topCartel+fondoCartel.getHeight()/2+letras.getTextSize()*2,
                     letras);
             xreiniciar = leftCartel;
             yreiniciar = topCartel+fondoCartel.getHeight();

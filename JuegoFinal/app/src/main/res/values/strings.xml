@@ -13,6 +13,6 @@
         Game mode that will test your skills. Get a number of points in a specific time to win, if you don\'t get it, you have to start over!
     </string>
     <string name="arcadetext">
-        You have 2 minutes to get the highest possible score. You do not have a time limit, but remember, birds will not make it easy for you!
+        You have 2 minutes to get the highest possible score. You do not have a score limit, but remember, birds will not make it easy for you!
     </string>
 </resources>
